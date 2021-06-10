@@ -1,0 +1,20 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "11th Home work GoIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxCrush/goit-js-hw-11-color-switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoxCrush/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://github.com/FoxCrush/goit-js-hw-11-color-switch#readme"
+}
