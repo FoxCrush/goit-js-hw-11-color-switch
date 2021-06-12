@@ -4,7 +4,11 @@
   "description": "11th Home work GoIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-color-switch/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/FoxCrush/goit-js-hw-11-color-switch/issues"
   },
-  "homepage": "https://github.com/FoxCrush/goit-js-hw-11-color-switch#readme"
+  "homepage": "https://github.com/FoxCrush/goit-js-hw-11-color-switch",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
 }
